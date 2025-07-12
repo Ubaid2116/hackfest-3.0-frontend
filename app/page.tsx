@@ -47,7 +47,7 @@ interface PatientData {
   service: string
 }
 
-const BACKEND_URL = "https://medimate-backend-coral.vercel.app/"
+const BACKEND_URL = "https://medimate-backend-coral.vercel.app/api/"
 
 const agents = [
   { name: "Welcome Agent", icon: Heart, color: "bg-blue-500", description: "General welcome and guidance" },
